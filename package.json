@@ -1,0 +1,26 @@
+{
+  "name": "price-discovery",
+  "version": "1.0.0",
+  "description": "finding crypto prices",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "axios": "^0.21.3",
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "numeral": "^2.0.6",
+    "web3": "^1.5.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
