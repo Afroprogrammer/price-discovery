@@ -1,5 +1,5 @@
 const Web3 = require("web3");
-const RPC = "https://mainnet.infura.io/v3/8ac09c90ba74442b8b4abb6a38c9acbb";
+const RPC = " ";
 const web3 = new Web3(RPC);
 
 require("dotenv").config();
